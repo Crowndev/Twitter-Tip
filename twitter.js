@@ -5,13 +5,13 @@ var winston = require("winston");
 var fs = require("fs");
 
 // check if the config file exists
-if (!fs.existsSync("./config/crwtwitter.yml")) {
+if (!fs.existsSync("./twitter.yml")) {
     winston.error("Configuration file doesn't exist! Please read the README.md file first.");
     process.exit(1);
 }
 
 // load settings
-var settings = yaml.load(fs.readFileSync("./config/crwtwitter.yml", "utf-8"));
+var settings = yaml.load(fs.readFileSync("./twitter.yml", "utf-8"));
 
 // load winston's cli defaults
 winston.cli();
