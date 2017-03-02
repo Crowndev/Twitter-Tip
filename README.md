@@ -15,10 +15,10 @@ Logging settings.
 
 ## rpc
 JSON RPC API connection info.
-* **host** - Daemon hostname(127.0.0.1 if ran 
-* **port** - API port (by default 9341 for Crown)
-* **user** - API username
-* **pass** - API password (keep that secure)
+* **host** - Daemon hostname(127.0.0.1 if hosted on the same machine)
+* **port** - Daemon RPC port (by default 9341 for Crown)
+* **user** - Daemon RPC username
+* **pass** - Daemon RPC password (keep that secure)
 
 ## coin
 Basic coin settings.
