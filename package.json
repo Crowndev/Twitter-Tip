@@ -1,6 +1,6 @@
-
+{
   "name": "Twitter-Tip",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "node.js based tipping bot for Crown",
   "main": "twitter",
   "dependencies": {
